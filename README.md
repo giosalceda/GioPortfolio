@@ -33,5 +33,5 @@ This repository contains the source code for my **personal game development port
 
 ## 📫 Contact
 
-- LinkedIn: https://linkedin.com/in/gio-salceda-2a36b43a2
+- LinkedIn: https://linkedin.com/in/gio-salceda
 - Email: giosalceda.dev.gmail.com
