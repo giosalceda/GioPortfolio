@@ -51,8 +51,38 @@ import Mangpapato6 from "../assets/Mangpapato6.jpg";
 import Mangpapato7 from "../assets/Mangpapato7.jpg";
 import Mangpapato8 from "../assets/Mangpapato8.jpg";
 
-// https://youtu.be/VNES0LzERuk
+import Pogs from "../assets/Pogs.jpg";
+import PogsMain1 from "../assets/PogsMain1.jpg";
+import PogsMain2 from "../assets/PogsMain2.jpg";
+
 export const games = [
+    {
+    title: "Pogs (2026)",
+    image: Pogs,
+    details: `A fast-paced casual mobile game where players slam their way through levels, beat high score, and collect pogs along the journey.`,
+    people: "3",
+    time: "2 Months",
+    slug: "pogs",
+    slides: [
+      { type: "youtube", url: "https://youtu.be/VNES0LzERuk" },
+      { type: "image", src: PogsMain1 },
+      { type: "image", src: PogsMain2 },
+    ],
+    role: "Project Lead | VFX Artist | Gameplay Programmer",
+    description: `A fast-paced casual mobile game where players slam their way through progressively challenging levels,
+      overcome obstacles, and chase high scores while collecting pogs along the journey, 
+      all while testing timing, precision, and reaction speed as they push further with each attempt.`,
+    contributions: `
+      - Architected and developed core gameplay systems, defining the foundational player interaction loop and game flow.
+      - Designed and implemented a robust game state management system.
+      - Optimized mobile performance through object pooling strategies and rigidbody lifecycle management, significantly improving stability.
+      - Engineered an event-driven architecture to decouple systems, improve maintainability, and enable scalable feature development.
+      - Implemented pog collection, purchasing systems, and inventory management.
+      - Developed a persistent save system using JSON serialization for reliable cross-session data storage.
+      - Designed and implemented a fully responsive UI system adaptable to multiple device resolutions and aspect ratios.
+      `,
+  },
+
   {
     title: "Santelmo (2025)",
     image: Santelmo,

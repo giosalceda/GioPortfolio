@@ -13,7 +13,9 @@ const Card = ({ image, title, details, people, time, link }) => {
       <img
         src={image}
         alt="Game Thumbnail"
-        className="w-full h-55 object-cover"
+        className="w-full h-55 object-cover object-center"
+        // className="w-full h-55 object-cover"
+        // className="w-full h-55 object-contain"
         loading="lazy"
       />
 

@@ -18,16 +18,6 @@ const GamePageContent = ({ slides, title, description }) => {
 
           <div className=" hidden lg:flex justify-between space-x-4">
             <button className="text-center p-3 rounded-xl border-4 border-blue-600 font-bold w-44 text-2xl cursor-pointer" onClick={() => navigate(-1)}>Back</button>
-            
-            {/* IN DEVELOPMENT */}
-            {/* <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-center p-3 rounded-xl bg-blue-600 font-bold text-2xl w-full"
-            >
-              PLAY
-            </a> */}
           </div>
 
         </div>
