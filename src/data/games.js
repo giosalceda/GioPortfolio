@@ -41,7 +41,17 @@ import GladiatorSiege1 from "../assets/GladiatorSiege1.jpg";
 import GladiatorSiege2 from "../assets/GladiatorSiege2.jpg";
 import GladiatorSiege3 from "../assets/GladiatorSiege3.jpg";
 
+import Mangpapato from "../assets/Mangpapato.jpg";
+import Mangpapato1 from "../assets/Mangpapato1.jpg";
+import Mangpapato2 from "../assets/Mangpapato2.jpg";
+import Mangpapato3 from "../assets/Mangpapato3.jpg";
+import Mangpapato4 from "../assets/Mangpapato4.jpg";
+import Mangpapato5 from "../assets/Mangpapato5.jpg";
+import Mangpapato6 from "../assets/Mangpapato6.jpg";
+import Mangpapato7 from "../assets/Mangpapato7.jpg";
+import Mangpapato8 from "../assets/Mangpapato8.jpg";
 
+// https://youtu.be/VNES0LzERuk
 export const games = [
   {
     title: "Santelmo (2025)",
@@ -200,6 +210,38 @@ export const games = [
           - Designed levels to provide engaging player challenges.
           - Created UI/UX for smooth player interaction.
           - Note: All 3D assets were sourced from the Unity Asset Store, all gameplay systems and mechanics were developed independently.
+          `,
+  },
+
+  {
+    title: "Mang Papato (2024)",
+    image: Mangpapato,
+    details: `A chaotic 3D local multiplayer party game where players compete to earn the title of ultimate duck farmer.`,
+    people: "5",
+    time: "2 Weeks",
+    slug: "mang-papato",
+    slides: [
+      { type: "youtube", url: "https://youtu.be/s2N1Vtwvn0g" },
+      { type: "image", src: Mangpapato1 },
+      { type: "image", src: Mangpapato2 },
+      { type: "image", src: Mangpapato3 },
+      { type: "image", src: Mangpapato4 },
+      { type: "image", src: Mangpapato5 },
+      { type: "image", src: Mangpapato6 },
+      { type: "image", src: Mangpapato7 },
+      { type: "image", src: Mangpapato8 },
+
+    ],
+    role: "Gameplay Programmer",
+    description: `A chaotic 3D local multiplayer party game where players compete to earn the title of ultimate duck farmer by raising, 
+      collecting, and managing flocks of ducks while sabotaging rivals, 
+      overcoming unpredictable farmyard challenges, 
+      and completing objectives across a series of fast-paced and humorous competitive events.`,
+    contributions: `
+          - Implemented core gameplay mechanics, including player movement, picking up and attack.
+          - Developed health systems for duck.
+          - Created laying egg system.
+          - Implemented game feedback to enhance gameplay, including knockback, particle effects and animations.
           `,
   },
 

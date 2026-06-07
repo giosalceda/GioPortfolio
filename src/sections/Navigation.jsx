@@ -143,12 +143,11 @@ const Navigation = () => {
         {/* SOCIALS */}
         <div className="flex space-x-2 lg:space-x-4 items-center ">
           <Socials
-            link="https://linkedin.com/in/gio-salceda-2a36b43a2"
+            link="https://linkedin.com/in/gio-salceda"
             icon={FaLinkedin}
           />
-          {/* <Socials link="https://newmouse.itch.io/" icon={FaItchIo} /> */}
           <Socials
-            link="https://github.com/Giocumber"
+            link="https://github.com/giosalceda"
             icon={FaGithubSquare}
           />
           
